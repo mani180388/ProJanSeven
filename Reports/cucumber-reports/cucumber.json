@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-17T00:23:20.606Z",
+        "line": 5,
+        "name": "Launching the browser and URL",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;launching-the-browser-and-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Launch the chrome browser",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Navigate to the Cheap Air web application",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.navigate_to_the_Cheap_Air_site_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Confirm the site is launched",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.confirm_the_site_is_launched()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T00:23:20.622Z",
+        "line": 10,
+        "name": "Searching Flights for trip",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;searching-flights-for-trip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select the FROM, TO and Pick the Departure and Arrival dates",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.select_the_FROM_TO_and_Pick_the_Departure_and_Arrival_dates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select the passengers count and travel seat type",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.enter_the_passenger_details_and_travel_seat_type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Search for flights",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.search_for_flights()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Check window for showing prices",
+            "match": {
+              "location": "com.straive.stepdefinition.HomePageStepDefinition.check_window_for_showing_prices()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T00:23:20.653Z",
+        "line": 16,
+        "name": "Selecting flight with low price",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;selecting-flight-with-low-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Sort the prices of flight tickets",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Select the low price flights for round trip",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Check the total fare",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Continue to passenger detail page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Booking a Round Trip in Cheap Air site",
+    "description": "",
+    "id": "booking-a-round-trip-in-cheap-air-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BookingRoundTrip.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launching the browser and URL",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;launching-the-browser-and-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2799953400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the chrome browser",
+            "match": {
+              "location": "HomePageStepDefinition.launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4321714000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the Cheap Air web application",
+            "match": {
+              "location": "HomePageStepDefinition.navigate_to_the_Cheap_Air_site_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236472800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Confirm the site is launched",
+            "match": {
+              "location": "HomePageStepDefinition.confirm_the_site_is_launched()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Searching Flights for trip",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;searching-flights-for-trip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3870458700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the FROM, TO and Pick the Departure and Arrival dates",
+            "match": {
+              "location": "HomePageStepDefinition.select_the_FROM_TO_and_Pick_the_Departure_and_Arrival_dates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1923823700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select the passengers count and travel seat type",
+            "match": {
+              "location": "HomePageStepDefinition.enter_the_passenger_details_and_travel_seat_type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 897589400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Search for flights",
+            "match": {
+              "location": "HomePageStepDefinition.search_for_flights()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57575000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Check window for showing prices",
+            "match": {
+              "location": "HomePageStepDefinition.check_window_for_showing_prices()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Selecting flight tickets with low price",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;selecting-flight-tickets-with-low-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12433334500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Sort the prices of flight tickets",
+            "match": {
+              "location": "FlightSelectionStepDefinition.sort_the_prices_of_flight_tickets()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3447774600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select the low price flights for round trip",
+            "match": {
+              "location": "FlightSelectionStepDefinition.select_the_low_price_flights_for_round_trip()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4703894700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Check the total fare",
+            "match": {
+              "location": "FlightSelectionStepDefinition.check_the_total_fare()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165686400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Continue to passenger detail page",
+            "match": {
+              "location": "FlightSelectionStepDefinition.continue_to_passenger_detail_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Passenger details and purchase options",
+        "description": "",
+        "id": "booking-a-round-trip-in-cheap-air-site;passenger-details-and-purchase-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13841626600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter the passenger details",
+            "match": {
+              "location": "Passenger_Payement_Detail_StepDefinition.enter_the_passenger_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2985731600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter the purchase details",
+            "match": {
+              "location": "Passenger_Payement_Detail_StepDefinition.enter_the_purchase_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132838500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify the purchse button",
+            "match": {
+              "location": "Passenger_Payement_Detail_StepDefinition.verify_the_purchse_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking a Round Trip in Cheap Air site",
+    "description": "",
+    "id": "booking-a-round-trip-in-cheap-air-site",
+    "keyword": "Feature",
+    "uri": "C:/Users/Peter Praveen/eclipse-workspace/CheapAir_WebApp_Junit/src/test/resources/Features/BookingRoundTrip.feature",
+    "tags": []
+  }
+]
